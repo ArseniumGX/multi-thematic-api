@@ -1,0 +1,20 @@
+{
+  "name": "bluefls-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ArseniumGX/bluefls-api.git",
+  "author": "José Pereira Macedo <arseniumgx@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "5.13.8"
+  }
+}
