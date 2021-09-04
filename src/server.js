@@ -1,6 +1,5 @@
 const app = require('./app')
 
-const port = +app.get('port') | 3001
-const host = app.get('host')
+const port = +app.get('port') || 3001
 
-app.listen(port, () => console.log(`Server is running at http://${host}:${port}/`))
+app.listen(port, () => port === 3001 ? console.log(`Server is running at http://localhost:${port}/`) : true)

@@ -3,7 +3,7 @@ const Movie = require('../models/Movies')
 class MoviesController{
     showOne = async(req, res) => {
         const { id } = req.params
-        const query = await Movie.findOne(_id=id)
+        const query = await Movie.findOne(_id === id)
         if(!query)
             return res.status(404).json({message: "ID not found!"})
         
