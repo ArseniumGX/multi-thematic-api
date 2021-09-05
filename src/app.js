@@ -1,8 +1,10 @@
-require('dotenv').config()
+process.env.NODE_ENV !== 'Development' ? 
+            require('dotenv').config() : 
+            require('dotenv').config({ path: '.env.dev'})
 const express = require('express')
 const router = require('./router')
 const cors = require('cors')
-const Connection = require('./database')
+
 
 const app = express()
 
