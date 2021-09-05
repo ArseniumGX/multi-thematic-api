@@ -19,7 +19,7 @@ Teste a api acessando ```<hostname:port>/api/movies```. Utilize o modelo de entr
 
 ```json
 {
-    "title": "*required",
+	"title": "*required",
 	"synopsis": "",
 	"release": 1900,
 	"director": [],
