@@ -23,7 +23,7 @@ router.get('/api', (req, res) => {
                         methodsAccept: ["GET", "POST", "PUT", "DELETE"],
                         model: {
                             title: "*required",
-                            storeline: "",
+                            synopsis: "",
                             director: [],
                             release: 1900,
                             gender: [],
@@ -36,7 +36,7 @@ router.get('/api', (req, res) => {
                         path: "/games",
                         methods: ["GET", "POST", "PUT", "DELETE"],
                         model: "Not defined",
-                        state: "Not implemented"
+                        state: "under constuction"
                     },
                     {
                         path: "/musics",
