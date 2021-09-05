@@ -2,7 +2,7 @@
 
 Está um uma API temática desenvolvida para integra um catálogo frontend construído em react com o intúito de por em prática todos os conhecimento adquido no decorro do módulo 3 do curso de certificação de devs (Fullstack). O presente projeto foi ainda está em desenvolvimento.
 
-Para testar a o funcionamento da api [clique aqui](https://bluefls-api.herokuapp.com/api). Você encontrara as informção necessárias para testar cada rota.
+Para testar a o funcionamento da api [clique aqui](https://bluefls-api.herokuapp.com/api). Você encontrará as informações necessárias para testar cada rota.
 
 ## Testes Locais
 Você pode testar a api localmente após clonar o repositório. Para isto, crie crie um arquivo .env.dev com as definições expecificadas no arquivo .env.example
