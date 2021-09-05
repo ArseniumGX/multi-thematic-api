@@ -13,6 +13,6 @@ mongoose.connect(uri, {
     autoCreate: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
-}).then(res => console.log('Database is connected!')).catch(err => console.log(err))
+}).then(res => console.info('Database is connected!')).catch(err => console.warn("Database connection is fail."))
 
 module.exports = mongoose
