@@ -2,9 +2,9 @@ const conn = require('../database')
 
 const movieSchema = new conn.Schema({
     title: { type: String, required: true },
-    storeline: { type: String, default: ""},
+    synopsis: { type: String, default: ""},
     director: { type: Array, default: []},
-    release: { type: Date, default: Date},
+    release: { type: Number, default: 0000 },
     gender: { type: Array, default: []},
     imageURL: { type: String, default: ""},
     trailer: { type: String, default: ""}
