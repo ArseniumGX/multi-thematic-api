@@ -1,6 +1,6 @@
 # ArseniumGX API Fullstack
 
-Está um uma API temática desenvolvida para integra um catálogo frontend construído em react com o intúito de por em prática todos os conhecimento adquido no decorro do módulo 3 do curso de certificação de devs (Fullstack). O presente projeto foi ainda está em desenvolvimento.
+Está um uma API temática desenvolvida para integra um catálogo frontend construído em react com o intúito de por em prática todos os conhecimentos sobre a stack MERN. O presente projeto foi ainda está em desenvolvimento.
 
 Para testar a o funcionamento da api [clique aqui](https://bluefls-api.herokuapp.com/api). Você encontrará as informações necessárias para testar cada rota.
 
