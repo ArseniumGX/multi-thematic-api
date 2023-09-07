@@ -1,9 +1,9 @@
 {
-  "name": "bluefls-api",
+  "name": "multi-thematic-api",
   "version": "1.0.0",
   "main": "app.js",
-  "repository": "git@github.com:ArseniumGX/bluefls-api.git",
-  "author": "José Pereira Macedo <arseniumgx@gmail.com> (https://arseniumgx.herokuapp.com/)",
+  "repository": "git@github.com:ArseniumGX/multi-thematic-api.git",
+  "author": "José Pereira Macedo <arseniumgx@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node src/server.js",
