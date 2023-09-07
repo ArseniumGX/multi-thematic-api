@@ -1,21 +1,26 @@
 {
   "name": "multi-thematic-api",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "main.js",
   "repository": "git@github.com:ArseniumGX/multi-thematic-api.git",
   "author": "José Pereira Macedo <arseniumgx@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "NODE_ENV=Development nodemon src/server.js"
+    "dev": "tsnd src/server.js --transpile-only --watch NODE_ENV=Development"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.17",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.5.9",
+    "rimraf": "^5.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "5.13.8"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
   }
 }
